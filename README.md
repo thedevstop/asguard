@@ -1,4 +1,4 @@
-asgaurd
+asguard
 =======
 
 Simple code contracts for ActionScript.  
