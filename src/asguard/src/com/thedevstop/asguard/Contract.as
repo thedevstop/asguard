@@ -1,13 +1,11 @@
 package com.thedevstop.asguard 
 {
-	import com.thedevstop.contracts.ContractViolatedError;
-	import com.thedevstop.contracts.ContractViolatedEvent;
 	import flash.events.EventDispatcher;
 	import flash.events.IEventDispatcher;
 	import flash.utils.Dictionary;
 	
-	[Event(name="preCondition", type="com.thedevstop.contracts.ContractViolatedEvent")]
-	[Event(name = "postCondition", type = "com.thedevstop.contracts.ContractViolatedEvent")]
+	[Event(name="preCondition", type="com.thedevstop.asguard.ContractViolatedEvent")]
+	[Event(name = "postCondition", type = "com.thedevstop.asguard.ContractViolatedEvent")]
 	/**
 	 * Use for checking pre- and post- conditions in code.
 	 */
