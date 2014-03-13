@@ -97,7 +97,7 @@ package com.thedevstop.asguard
 				_asserter.isNotNull(result);
 			
 			_conditions.forEach(function(condition:Function, index:int, array:Array):void {
-				condition();
+				condition(result);
 			});
 			
 			return result;
